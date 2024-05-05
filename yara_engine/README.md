@@ -20,3 +20,8 @@ todo:
 - Integrate Yara engine with your application
 - Test and debug the Yara engine functionality
 - Write documentation for the Yara engine
+
+Comments:
+
+
+The scripts yar file pings off to many things, producing lots of false positives need a better condition case 
