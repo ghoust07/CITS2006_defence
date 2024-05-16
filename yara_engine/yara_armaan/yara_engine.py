@@ -64,16 +64,22 @@ def scan_file(rules, file_path):
                 for string in match.strings:
                     print(f'    String matched: {string}')
 
+def scan_directory(rules, directory):
+    for root, _, files in os.walk(directory):
+        for file in files:
+            file_path = os.path.join(root, file)
+            scan_file(rules, file_path)
+
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python3 script_name.py <path_to_file_to_scan>")
+        print("Usage: python3 script_name.py <path_to_directory_to_scan>")
         sys.exit(1)
 
-    file_to_scan = sys.argv[1]
+    directory_to_scan = sys.argv[1]
 
-    # Ensure the file to scan exists
-    if not os.path.exists(file_to_scan):
-        print(f'Error: The file {file_to_scan} does not exist.')
+    # Ensure the directory to scan exists
+    if not os.path.exists(directory_to_scan):
+        print(f'Error: The directory {directory_to_scan} does not exist.')
         sys.exit(1)
 
     # Current directory where all files are stored
@@ -88,6 +94,6 @@ if __name__ == "__main__":
     # Load Yara rules
     rules = load_yara_rules(rules_directory)
 
-    # Scan the file
-    scan_file(rules, file_to_scan)
+    # Scan the directory recursively
+    scan_directory(rules, directory_to_scan)
 
