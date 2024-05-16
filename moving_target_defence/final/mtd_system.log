@@ -1,0 +1,48 @@
+2024-05-16 15:00:06,786 - INFO - Loading Yara rules from directory: ./yara_rules
+2024-05-16 15:00:06,786 - INFO - Compiling Yara rule: ./yara_rules/malware.yar
+2024-05-16 15:00:06,799 - INFO - Compiling Yara rule: ./yara_rules/scripts.yar
+2024-05-16 15:00:06,807 - INFO - Compiling Yara rule: ./yara_rules/network_executables.yar
+2024-05-16 15:00:06,811 - INFO - Compiling Yara rule: ./yara_rules/custom_signatures.yar
+2024-05-16 15:00:06,815 - INFO - Compiling Yara rule: ./yara_rules/hidden_files.yar
+2024-05-16 15:00:06,819 - INFO - Compiling Yara rule: ./yara_rules/urls.yar
+2024-05-16 15:00:06,822 - INFO - Scanning file: ./ExampleDir/SubExampleDir/test_malware.txt
+2024-05-16 15:00:06,822 - INFO - Match found in ./ExampleDir/SubExampleDir/test_malware.txt for rule malware.yar:
+2024-05-16 15:00:06,822 - INFO -   Rule: malware
+2024-05-16 15:00:06,822 - INFO -     String matched: (0, '$string1', b'malicious_pattern1')
+2024-05-16 15:00:06,823 - INFO -     String matched: (19, '$string2', b'malicious_pattern2')
+2024-05-16 15:01:37,729 - INFO - Loading Yara rules from directory: ./yara_rules
+2024-05-16 15:01:37,729 - INFO - Compiling Yara rule: ./yara_rules/malware.yar
+2024-05-16 15:01:37,739 - INFO - Compiling Yara rule: ./yara_rules/scripts.yar
+2024-05-16 15:01:37,755 - INFO - Compiling Yara rule: ./yara_rules/network_executables.yar
+2024-05-16 15:01:37,759 - INFO - Compiling Yara rule: ./yara_rules/custom_signatures.yar
+2024-05-16 15:01:37,763 - INFO - Compiling Yara rule: ./yara_rules/hidden_files.yar
+2024-05-16 15:01:37,767 - INFO - Compiling Yara rule: ./yara_rules/urls.yar
+2024-05-16 15:01:37,771 - INFO - Scanning file: ./ExampleDir/SubExampleDir/test_malware.txt
+2024-05-16 15:01:37,772 - INFO - Match found in ./ExampleDir/SubExampleDir/test_malware.txt for rule malware.yar:
+2024-05-16 15:01:37,772 - INFO -   Rule: malware
+2024-05-16 15:01:37,772 - INFO -     String matched: (0, '$string1', b'malicious_pattern1')
+2024-05-16 15:01:37,772 - INFO -     String matched: (19, '$string2', b'malicious_pattern2')
+2024-05-16 15:02:52,920 - INFO - Loading Yara rules from directory: ./yara_rules
+2024-05-16 15:02:52,920 - INFO - Compiling Yara rule: ./yara_rules/malware.yar
+2024-05-16 15:02:52,930 - INFO - Compiling Yara rule: ./yara_rules/scripts.yar
+2024-05-16 15:02:52,938 - INFO - Compiling Yara rule: ./yara_rules/network_executables.yar
+2024-05-16 15:02:52,955 - INFO - Compiling Yara rule: ./yara_rules/custom_signatures.yar
+2024-05-16 15:02:52,967 - INFO - Compiling Yara rule: ./yara_rules/hidden_files.yar
+2024-05-16 15:02:52,975 - INFO - Compiling Yara rule: ./yara_rules/urls.yar
+2024-05-16 15:02:52,980 - INFO - Scanning file: ./ExampleDir/SubExampleDir/test_malware.txt
+2024-05-16 15:02:52,980 - INFO - Match found in ./ExampleDir/SubExampleDir/test_malware.txt for rule malware.yar:
+2024-05-16 15:02:52,980 - INFO -   Rule: malware
+2024-05-16 15:02:52,980 - INFO -     String matched: (0, '$string1', b'malicious_pattern1')
+2024-05-16 15:02:52,980 - INFO -     String matched: (19, '$string2', b'malicious_pattern2')
+2024-05-16 15:05:35,367 - INFO - Loading Yara rules from directory: ./yara_rules
+2024-05-16 15:05:35,368 - INFO - Compiling Yara rule: ./yara_rules/malware.yar
+2024-05-16 15:05:35,374 - INFO - Compiling Yara rule: ./yara_rules/scripts.yar
+2024-05-16 15:05:35,380 - INFO - Compiling Yara rule: ./yara_rules/network_executables.yar
+2024-05-16 15:05:35,386 - INFO - Compiling Yara rule: ./yara_rules/custom_signatures.yar
+2024-05-16 15:05:35,392 - INFO - Compiling Yara rule: ./yara_rules/hidden_files.yar
+2024-05-16 15:05:35,405 - INFO - Compiling Yara rule: ./yara_rules/urls.yar
+2024-05-16 15:05:35,417 - INFO - Scanning file: ./ExampleDir/SubExampleDir/test_malware.txt
+2024-05-16 15:05:35,418 - INFO - Match found in ./ExampleDir/SubExampleDir/test_malware.txt for rule malware.yar:
+2024-05-16 15:05:35,418 - INFO -   Rule: malware
+2024-05-16 15:05:35,418 - INFO -     String matched: (0, '$string1', b'malicious_pattern1')
+2024-05-16 15:05:35,418 - INFO -     String matched: (19, '$string2', b'malicious_pattern2')
